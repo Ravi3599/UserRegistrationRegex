@@ -18,6 +18,6 @@ public class RegexMain {
 		String password = sc.next();
 		UserDetails userdetails = new UserDetails(firstName,lastName,email,number,password);
 		UserRegistration registration = new UserRegistration();
-		registration.register(userdetails);
+		registration.register();
 	}
 }
